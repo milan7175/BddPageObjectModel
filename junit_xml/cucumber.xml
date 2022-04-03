@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.828">
+    <testcase classname="Amazon website Test" name="Validate amazon login test" time="8.647">
+        <failure message="expected:&lt;Amazon[]&gt; but was:&lt;Amazon[.ca: Low Prices – Fast Shipping – Millions of Items]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User opens browser....................................................passed
+Then page title is Amazon.ca: Low Prices – Fast Shipping – Millions of Items.passed
+Then user hovers to signIn button and click.................................passed
+Then enter emailId and continue.............................................passed
+Then enter password and continue............................................passed
+Then validate home page.....................................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Amazon[]> but was:<Amazon[.ca: Low Prices – Fast Shipping – Millions of Items]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinations.HomePageStepDefination.validate_home_page(HomePageStepDefination.java:61)
+	at ✽.validate home page(file:///C:/Selenium_workspace/BDDPageObjectModelPractise/src/main/java/features/Amazon.feature:10)
+]]></failure>
+    </testcase>
+</testsuite>

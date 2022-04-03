@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T17:40:41.442Z",
+        "line": 3,
+        "name": "Validate amazon login test",
+        "description": "",
+        "id": "amazon-website-test;validate-amazon-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4407671100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens browser",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.User_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8817300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page title is Amazon.ca: Low Prices – Fast Shipping – Millions of Items",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.page_title_is_amazon_ca_low_prices_fast_shipping_millions_of_items()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1134951000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers to signIn button and click",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.user_hovers_to_sign_in_button_and_click()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1067702500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter emailId and continue",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.enter_email_id_and_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1940648300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password and continue",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.enter_password_and_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cAmazon[]\u003e but was:\u003cAmazon[.ca: Low Prices – Fast Shipping – Millions of Items]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinations.HomePageStepDefination.validate_home_page(HomePageStepDefination.java:61)\r\n\tat ✽.validate home page(file:///C:/Selenium_workspace/BDDPageObjectModelPractise/src/main/java/features/Amazon.feature:10)\r\n",
+              "duration": 13180200,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "validate home page",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.validate_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinations.HomePageStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon website Test",
+    "description": "",
+    "id": "amazon-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Amazon.feature",
+    "tags": []
+  }
+]
